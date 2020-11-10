@@ -16,7 +16,6 @@ public class SpeedingTicket {
             System.out.println("Speeding ticket!");
         }
         
-    }
-    
+    }    
     
 }
