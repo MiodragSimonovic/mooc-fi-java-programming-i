@@ -22,7 +22,7 @@ public class Main {
         System.out.println("");
         for (Person person : room.getPersons()) {
             System.out.println(person);
-}
+        }
                         
     }
     

@@ -21,8 +21,6 @@ public class Main {
         System.out.println("The suitcases in the hold contain the following items:");
         hold.printItems();  
         
-    }
-    
-    
+    }   
 
 }
