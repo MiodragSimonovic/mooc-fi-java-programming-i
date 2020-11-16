@@ -52,4 +52,5 @@ public class SimpleDate {
     public String toString() {
         return this.day + "." + this.month + "." + this.year;
     }
+    
 }

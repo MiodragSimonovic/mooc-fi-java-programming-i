@@ -40,4 +40,5 @@ public class Product {
     public String toString() {
         return this.name + " (" + this.weight + " kg) can be found from the " + this.location;
     }
+    
 }

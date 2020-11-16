@@ -60,4 +60,5 @@ public class PaymentTerminal {
     public String toString() {
         return "money: " + money + ", number of sold affordable meals: " + affordableMeals + ", number of sold hearty meals: " + heartyMeals;
     }
+    
 }
