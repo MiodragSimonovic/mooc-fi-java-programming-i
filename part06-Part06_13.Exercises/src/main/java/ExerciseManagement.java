@@ -1,7 +1,6 @@
 
 import java.util.ArrayList;
 
-
 public class ExerciseManagement {
     
     private ArrayList<String> exercises;

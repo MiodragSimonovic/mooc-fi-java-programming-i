@@ -1,7 +1,6 @@
 
 import java.util.ArrayList;
 
-
 public class Package {
     
     private ArrayList<Gift> gifts;

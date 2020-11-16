@@ -2,7 +2,6 @@
 import java.util.ArrayList;
 import java.util.Random;
 
-
 public class JokeManager {
     
     private ArrayList<String> jokes;

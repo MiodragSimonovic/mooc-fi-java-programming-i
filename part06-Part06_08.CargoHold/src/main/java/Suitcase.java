@@ -1,7 +1,6 @@
 
 import java.util.ArrayList;
 
-
 public class Suitcase {
     
     private int maximumWeight;

@@ -1,7 +1,6 @@
 
 import java.util.ArrayList;
 
-
 public class Stack {
     
     ArrayList<String> stack;
