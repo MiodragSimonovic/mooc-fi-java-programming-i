@@ -22,10 +22,10 @@ public class ExerciseManagement {
     
     public void markAsCompleted(String exercise) {
         this.completedExercises.add(exercise);
-}
+    }
     
     public boolean isCompleted(String exercise) {    
-    return this.completedExercises.contains(exercise);
+        return this.completedExercises.contains(exercise);
     }
     
 }
