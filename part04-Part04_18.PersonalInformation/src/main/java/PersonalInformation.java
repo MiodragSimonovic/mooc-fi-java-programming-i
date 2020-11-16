@@ -27,4 +27,5 @@ public class PersonalInformation {
     public String toString() {
         return this.lastName + ", " + this.firstName + " (" + this.identificationNumber + ")";
     }
+    
 }

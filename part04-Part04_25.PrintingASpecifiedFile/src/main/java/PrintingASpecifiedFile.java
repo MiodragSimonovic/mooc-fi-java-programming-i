@@ -9,7 +9,9 @@ public class PrintingASpecifiedFile {
         Scanner scanner = new Scanner(System.in);
         
         System.out.println("Which file should have its contents printed?");
-        String fileName = scanner.nextLine();       
+        String fileName = scanner.nextLine();
+        
+        scanner.close();
         
         try (Scanner reader = new Scanner(Paths.get(fileName))) {
            while (reader.hasNextLine()) {
@@ -18,9 +20,8 @@ public class PrintingASpecifiedFile {
            }
         } catch (Exception e) {
             System.out.println("Error " + e.getMessage());
-        }
-        
-        scanner.close();
+        }       
         
     }
+    
 }

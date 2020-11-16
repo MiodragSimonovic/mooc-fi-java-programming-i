@@ -20,4 +20,5 @@ public class Cubes {
         scanner.close();
 
     }
+    
 }

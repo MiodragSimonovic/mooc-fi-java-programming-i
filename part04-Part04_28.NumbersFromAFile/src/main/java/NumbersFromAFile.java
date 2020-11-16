@@ -32,4 +32,5 @@ public class NumbersFromAFile {
         System.out.print("Numbers: " + counter);
 
     }
+    
 }
