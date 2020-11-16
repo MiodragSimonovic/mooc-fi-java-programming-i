@@ -8,6 +8,7 @@ public class AverageOfAList {
         
         ArrayList<Integer> list = new ArrayList<>();
         int sum = 0;
+        
         Scanner scanner = new Scanner(System.in);
         
         while (true) {
@@ -28,4 +29,5 @@ public class AverageOfAList {
         System.out.println("Average: " + average);
         
     }
+    
 }

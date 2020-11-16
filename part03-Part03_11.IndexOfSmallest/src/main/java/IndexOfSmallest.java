@@ -8,6 +8,7 @@ public class IndexOfSmallest {
         
         ArrayList<Integer> list = new ArrayList<>();
         ArrayList<Integer> indexes = new ArrayList<>();
+        
         Scanner scanner = new Scanner(System.in);
         
         while (true) {            
@@ -40,4 +41,5 @@ public class IndexOfSmallest {
         }
         
     }
+    
 }

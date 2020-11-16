@@ -33,4 +33,5 @@ public class PersonalDetails {
         System.out.println("Average of the birth years: " + average);
 
     }
+    
 }

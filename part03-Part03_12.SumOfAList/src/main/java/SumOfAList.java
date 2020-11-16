@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class SumOfAList {
 
     public static void main(String[] args) {
+        
         Scanner scanner = new Scanner(System.in);
 
         ArrayList<Integer> list = new ArrayList<>();
@@ -28,4 +29,5 @@ public class SumOfAList {
         System.out.println("Sum: " + sum);
         
     }
+    
 }

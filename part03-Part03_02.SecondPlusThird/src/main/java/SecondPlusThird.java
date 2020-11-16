@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class SecondPlusThird {
 
     public static void main(String[] args) {
+        
         Scanner scanner = new Scanner(System.in);
 
         ArrayList<Integer> numbers = new ArrayList<>();
@@ -20,5 +21,7 @@ public class SecondPlusThird {
         scanner.close();
 
         System.out.println(numbers.get(1) + numbers.get(2));
+        
     }
+    
 }

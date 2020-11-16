@@ -5,6 +5,7 @@ public class ArrayPrinter {
         // You can test your method here
         int[] array = {5, 1, 3, 4, 2};
         printNeatly(array);
+        
     }
     
 
@@ -17,4 +18,5 @@ public class ArrayPrinter {
             }
         }
     }
+    
 }

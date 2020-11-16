@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class ListSize {
 
     public static void main(String[] args) {
+        
         Scanner scanner = new Scanner(System.in);
 
         ArrayList<String> list = new ArrayList<>();
@@ -17,7 +18,10 @@ public class ListSize {
             list.add(input);
         }
         
+        scanner.close();
+        
         System.out.println(list.size());
 
     }
+    
 }

@@ -14,4 +14,5 @@ public class PrintThrice {
         System.out.println(word + word + word);
 
     }
+    
 }

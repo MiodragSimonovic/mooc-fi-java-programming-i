@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class GreatestInList {
 
     public static void main(String[] args) {
+        
         Scanner scanner = new Scanner(System.in);
 
         ArrayList<Integer> list = new ArrayList<>();
@@ -32,4 +33,5 @@ public class GreatestInList {
         System.out.println("The greatest number: " + greatestNumber);
         
     }
+    
 }

@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class FirstAndLast {
 
     public static void main(String[] args) {
+        
         Scanner scanner = new Scanner(System.in);
 
         ArrayList<String> list = new ArrayList<>();
@@ -17,8 +18,11 @@ public class FirstAndLast {
             list.add(input);
         }
         
+        scanner.close();
+        
         System.out.println(list.get(0) + "\n" +
                            list.get(list.size() - 1));
 
     }
+    
 }
