@@ -8,13 +8,14 @@ public class AbsoluteValue {
         
         int number = Integer.valueOf(scanner.nextLine());
         
+        scanner.close();
+        
         if (number < 0) {
             System.out.println(-1 * number);
         } else {
             System.out.println(number);
-        }
-        
-        scanner.close();
+        }        
 
     }
+    
 }

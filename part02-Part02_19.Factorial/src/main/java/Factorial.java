@@ -25,4 +25,5 @@ public class Factorial {
         System.out.print("Factorial: " + factorial);
 
     }
+    
 }

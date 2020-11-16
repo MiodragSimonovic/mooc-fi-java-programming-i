@@ -20,10 +20,13 @@ public class NumberAndSumOfNumbers {
             sum += number;
         }
         
+        scanner.close();
+        
         System.out.println("Number of numbers: " + counter + "\n" + 
                            "Sum of the numbers: " + sum);
         
-        scanner.close();
+        
 
     }
+    
 }

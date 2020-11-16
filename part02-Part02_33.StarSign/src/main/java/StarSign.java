@@ -11,6 +11,7 @@ public class StarSign {
         System.out.println("\n---");
         printTriangle(3);
         System.out.println("\n---");
+        
     }
     
 
@@ -38,4 +39,5 @@ public class StarSign {
         printStars(i);          
         }
     }
+    
 }

@@ -18,9 +18,10 @@ public class SumOfNumbers {
             sum += number;
         }
         
-        System.out.println("Sum of the numbers: " + sum);
-        
         scanner.close();
+        
+        System.out.println("Sum of the numbers: " + sum);       
 
     }
+    
 }

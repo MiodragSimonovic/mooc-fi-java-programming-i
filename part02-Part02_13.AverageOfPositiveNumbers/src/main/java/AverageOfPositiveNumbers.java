@@ -30,4 +30,5 @@ public class AverageOfPositiveNumbers {
         System.out.println("Average of the numbers: " + average);
 
     }
+    
 }

@@ -23,9 +23,8 @@ public class AverageOfNumbers {
         scanner.close();
         
         double average = (double) sum / counter;
-        System.out.println("Average of the numbers: " + average);
-        
-        
+        System.out.println("Average of the numbers: " + average);       
 
     }
+    
 }

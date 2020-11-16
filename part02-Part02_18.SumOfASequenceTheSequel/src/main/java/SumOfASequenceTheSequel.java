@@ -23,4 +23,5 @@ public class SumOfASequenceTheSequel {
         System.out.println("The sum is " + sum);
 
     }
+    
 }

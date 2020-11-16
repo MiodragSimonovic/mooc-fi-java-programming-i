@@ -20,9 +20,10 @@ public class NumberOfNegativeNumbers {
             }            
         }
         
-        System.out.println("Number of negative numbers: " + counter);
-        
         scanner.close();
+        
+        System.out.println("Number of negative numbers: " + counter);       
 
     }
+    
 }

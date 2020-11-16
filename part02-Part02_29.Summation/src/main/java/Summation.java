@@ -10,4 +10,5 @@ public class Summation {
         int result = sum(4, 3, 6, 1);
         System.out.println("Sum: " + result);
     }
+    
 }

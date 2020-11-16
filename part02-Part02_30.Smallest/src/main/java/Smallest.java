@@ -13,4 +13,5 @@ public class Smallest {
         int result = smallest(2, 7);
         System.out.println("Smallest: " + result);
     }
+    
 }

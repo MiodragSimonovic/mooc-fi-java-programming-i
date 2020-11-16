@@ -18,9 +18,10 @@ public class NumberOfNumbers {
             counter++;
         }
         
-        System.out.println("Number of numbers: " + counter);        
-        
         scanner.close();
+        
+        System.out.println("Number of numbers: " + counter);        
 
     }
+    
 }

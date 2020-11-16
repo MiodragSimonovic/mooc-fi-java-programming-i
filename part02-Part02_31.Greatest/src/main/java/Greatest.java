@@ -21,4 +21,5 @@ public class Greatest {
         int result = greatest(2, 7, 3);
         System.out.println("Greatest: " + result);
     }
+    
 }
